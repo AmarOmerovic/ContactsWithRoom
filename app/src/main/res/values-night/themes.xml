@@ -1,0 +1,52 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.ContactsWithRoom" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/backgroundColor</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/purple_500</item>
+        <item name="colorSecondaryVariant">@color/purple_500</item>
+        <item name="colorOnSecondary">@color/backgroundColor</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/purple_200</item>
+
+        <item name="actionBarTheme">@style/AppTheme</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/purple_700</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/purple_700</item>
+        <item name="fontFamily">@font/alatsi</item>
+
+        <!-- Snackbar -->
+        <item name="snackbarStyle">@style/MaterialSnackbarTheme</item>
+        <item name="snackbarButtonStyle">@style/MaterialSnackbarTextButtonTheme</item>
+        <item name="snackbarTextViewStyle">@style/MaterialSnackbarTextViewTheme</item>
+    </style>
+
+    <style name="MaterialSnackbarTheme" parent="@style/Widget.MaterialComponents.Snackbar">
+        <!-- <item name="backgroundTint">#00cc77</item>-->
+        <!-- <item name="android:background">@drawable/snackbar_background</item>-->
+        <item name="cornerRadius">10dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="actionTextColorAlpha">1.0</item>
+    </style>
+
+    <style name="MaterialSnackbarTextButtonTheme" parent="@style/Widget.MaterialComponents.Button.TextButton.Snackbar">
+        <item name="fontFamily">@font/alatsi</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="MaterialSnackbarTextViewTheme" parent="@style/Widget.MaterialComponents.Snackbar.TextView">
+        <item name="fontFamily">@font/alatsi</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+
+
+</resources>

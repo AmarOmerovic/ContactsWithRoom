@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">ContactsWithRoom</string>
+    <string name="button">Button</string>
+    <string name="enter_name">Enter name:</string>
+    <string name="enter_occupation">Enter occupation:</string>
+    <string name="empty">Enter information</string>
+    <string name="todo">TODO</string>
+    <string name="textview" tools:ignore="DuplicateDefinition">TextView</string>
+    <string name="call">call</string>
+    <string name="back">back</string>
+    <string name="save">save</string>
+    <string name="delete">delete</string>
+    <string name="firstName">First name:</string>
+    <string name="lastName">Last name:</string>
+    <string name="occupation">Occupation:</string>
+    <string name="phoneNumber">Phone number:</string>
+    <string name="person">person</string>
+    <string name="gallery">gallery</string>
+    <string name="camera">camera</string>
+    <string name="cancel"><![CDATA[cancel]]></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
